@@ -7,7 +7,8 @@
 | C | /Muon/Run2022C-22Sep2023-v1/NANOAOD
 |   | /SingleMuon/Run2022C-22Sep2023-v1/NANOAOD
 | D | /Muon/Run2022D-22Sep2023-v1/NANOAOD
-* I'm not using Egamma samples for now, because I haven't updated the trigger logic in our code to avoid double counting events. I will do it soon.
+
+I'm not using Egamma samples for now, because I haven't updated the trigger logic in our code to avoid double counting events. I will do it soon.
 
 ### Background MC
 | Sample Group | Sample | DAS |
@@ -36,7 +37,7 @@
 | VVV | wwz_4f | /WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM
 | VVV | www_4f | /WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM
 
-* When making the plots, I did not include `w_lnu` and `wz_4q` samples because I don't have their cross sections.
+When making the plots, I did not include `w_lnu` and `wz_4q` samples because I don't have their cross sections.
 
 # Cross sections
 | Samples          | Cross section (pb) |
@@ -56,6 +57,7 @@
 | wzz              | 0.05565            |
 | wwz_4f           | 0.1651             |
 | www_4f           | 0.2086             |
+
 Took the cross section values from https://twiki.cern.ch/twiki/bin/view/CMS/SummaryTable1G25ns, except for the DY samples. Cross sections for the DY samples came from `d_xSec_all_NEW["22"]` in https://gitlab.cern.ch/rocavigl/dileptonsAtRun3/-/blob/master/tools/helper_scripts/physics.py
 
 # Luminosity
@@ -79,4 +81,5 @@ Taken from `d_lumi['22']` in https://gitlab.cern.ch/rocavigl/dileptonsAtRun3/-/b
 * Mu50
 * HighPtTkMu100
 * CascadeMu100
+
 `HLT_Mu50_L1SingleMuShower` trigger doesn't exist in NanoAODv12 sample (see https://cms-nanoaod-integration.web.cern.ch/autoDoc/). There is however `L1_SingleMuShower_Nominal`, but that's not an HLT.
