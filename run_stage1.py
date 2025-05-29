@@ -1,5 +1,5 @@
 from coffea.nanoevents import NanoEventsFactory, NanoAODSchema
-from src.copperhead_processor import EventProcessor
+from src.dimuon_processor import EventProcessor
 # from src.copperhead_processor_cutflow import EventProcessor
 # NanoAODSchema.warn_missing_crossrefs = False
 import awkward as ak
