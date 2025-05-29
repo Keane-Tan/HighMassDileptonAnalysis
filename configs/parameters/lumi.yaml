@@ -3,11 +3,14 @@ integrated_lumis: # source: https://github.com/TopEFT/topeft/blob/252c6454e06e49
   2016postVFP: 16810.0
   '2017': 41480.0
   '2018': 59830.0
-  2022preEE: 59970.0
-  2022postEE: 59970.0
   2016_RERECO: 35920.0
   2017_RERECO: 41529.0
   2018_RERECO: 59740.0
+  # these values were taken from dileptonsAtRun3/tools/helper_scripts/physics.py by Franco
+  2022preEE: 7865.511618
+  2022postEE: 26337.274444
+  2023: 18627.399092
+  2023BPix: 9516.317930
 lumimask: 
   2016preVFP: data/lumimasks/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
   2016postVFP: data/lumimasks/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
@@ -15,6 +18,11 @@ lumimask:
   '2018': data/lumimasks/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt
   2022preEE: data/lumimasks/Cert_Collisions2022_355100_362760_Golden.json
   2022postEE: data/lumimasks/Cert_Collisions2022_355100_362760_Golden.json
+  # the 2023 lumimasks are taken from dileptonsAtRun3/preprocessing/certification/data23_golden.json by Franco
+  2023: data/lumimasks/data23_golden.json
+  2023BPix: data/lumimasks/data23_golden.json
   2016_RERECO: data/lumimasks/RERECO/Cert_271036-284044_13TeV_ReReco_07Aug2017_Collisions16_JSON.txt # RERECO source https://twiki.cern.ch/twiki/bin/viewauth/CMS/DCUserPage#Early2018Re_Reco_datasets_17Sep2 and https://twiki.cern.ch/twiki/bin/view/CMS/BtagRecommendation
   '2017_RERECO': data/lumimasks/RERECO/Cert_294927-306462_13TeV_EOY2017ReReco_Collisions17_JSON_v1.txt
   '2018_RERECO': data/lumimasks/RERECO/Cert_314472-325175_13TeV_17SeptEarlyReReco2018ABC_PromptEraD_Collisions18_JSON.txt
+
+

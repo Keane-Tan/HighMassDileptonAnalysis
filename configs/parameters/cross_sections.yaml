@@ -1,5 +1,6 @@
 cross_sections:
   test: 6200.0
+  # dyTo2L_M-50_incl: 11640 # FIXME Need to verify
   dy_M-50: 6077.22 # precision: NNLO source: https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV
   dy_M-50_MiNNLO: 1976
   dy_M-50_MiNNLO_V2: 2002
@@ -52,9 +53,9 @@ cross_sections:
   st_t_antitop: 80.95 #FIXME source: AN-19-124 table 2.8
   ttjets_dl: 86.65 # UL
   ttjets_sl: 358.57 # UL
-  ww_2l2nu: 11.09 # UL
-  wz_3lnu: 5.22 # UL
-  wz_2l2q: 6.45 # UL
+  # ww_2l2nu: 11.09 # UL
+  # wz_3lnu: 5.22 # UL
+  # wz_2l2q: 6.45 # UL
   wz_1l1nu2q: 9.12 # UL
   zz: 12.17 # UL #FIXME
   # ww_2l2nu: 12.178 # rereco
@@ -66,8 +67,8 @@ cross_sections:
   ttz: 0.2529
   www: 0.2086 # source: AN-19-124 table 2.8
   wwz: 0.1651 # source: AN-19-124 table 2.8
-  wzz: 0.05565 # source: AN-19-124 table 2.8
-  zzz: 0.01398 # source: AN-19-124 table 2.8
+  # wzz: 0.05565 # source: AN-19-124 table 2.8
+  # zzz: 0.01398 # source: AN-19-124 table 2.8
   # ggh_powheg: 0.01057
   ggh_powhegPS: 0.01057
   ggh_amcPS: 0.01057
@@ -98,3 +99,21 @@ cross_sections:
   wph: 0.000183
   zh: 0.000192
   tth: 0.00011
+  # xSecs taken from both https://twiki.cern.ch/twiki/bin/view/CMS/SummaryTable1G25ns (prioritized) and Franco's code (tools/helper_scripts/physics.py)
+  dyTo2L_M-4_incl: 165700
+  dyTo2L_M-10_incl: 28080
+  dyTo2L_M-50_incl: 11640
+  tt_inclusive: 88.51
+  ww_2l2nu: 12.178
+  ww_4q: 51.723
+  ww_lnu2q: 49.997
+  wz: 47.13
+  wz_3lnu: 4.924
+  wz_2l2q: 5.595
+  wz_lnu2q: 10.71
+  #wz_4q
+  zzz: 0.01398
+  wzz: 0.05565
+  wwz_4f: 0.1651
+  www_4f: 0.2086
+  #w_lnu
