@@ -20,5 +20,29 @@ hlt:
   - IsoMu24
   2022preEE:
   - IsoMu24
+  - IsoMu24
+  - Mu50
+  - HighPtTkMu100
+  # - L1_SingleMuShower_Nominal # This is not an HLT trigger. If we want to include this, probably need to modify dimuon_processor.py.
+  - CascadeMu100
   2022postEE:
   - IsoMu24
+  - IsoMu24
+  - Mu50
+  - HighPtTkMu100
+  # - L1_SingleMuShower_Nominal # This is not an HLT trigger. If we want to include this, probably need to modify dimuon_processor.py.
+  - CascadeMu100
+  2023:
+  - IsoMu24
+  - IsoMu24
+  - Mu50
+  - HighPtTkMu100
+  # - L1_SingleMuShower_Nominal # This is not an HLT trigger. If we want to include this, probably need to modify dimuon_processor.py.
+  - CascadeMu100
+  2023BPix:
+  - IsoMu24
+  - IsoMu24
+  - Mu50
+  - HighPtTkMu100
+  # - L1_SingleMuShower_Nominal # This is not an HLT trigger. If we want to include this, probably need to modify dimuon_processor.py.
+  - CascadeMu100
